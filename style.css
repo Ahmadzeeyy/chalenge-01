@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica;
+        font-size: 14px;
 }
 body{
     min-height: 200vh;
@@ -102,4 +103,14 @@ body{
 }
 .description-getting{
     margin-bottom: 52px;
+}
+.faq-container{
+        margin-top: 6.25rem;
+        margin-bottom: 9.375rem;
+}
+button.accordion-button{
+    font-size: 14px;
+    font-family: Helvetica;
+    padding-block: 18px;
+    padding-left: 24px;
 }
