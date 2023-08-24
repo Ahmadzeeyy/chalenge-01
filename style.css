@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+body{
+    min-height: 200vh;
+    font-size: 14px;
+}
+.title-section{
+    padding:.5rem .6rem;
+    background-color: #5CB85F;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+.navbar{
+    padding: 2rem 10%;
+    background-color: #F1F3FF;
+}
+.navbar .logo{
+    width: 10%;
+    height: 30px;
+    background-color: #0D28A6;
+}
+
+ .btn-register{
+    padding:.5rem .8rem;
+    background-color: #5CB85F;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+.hero-section{
+    background-color: #F1F3FF;
+    min-height: 52.8vh;
+}
+.container-content .description{
+    font-size: 14px;
+    line-height: 20px;
+}
+.container-content .header-hero{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.col .bg-image{
+    background-color: #0D28A6;
+    border-top-left-radius: 80px;
+}
+
+.service-section{
+    margin-block: 10rem;
+}
+.col > .services-image{
+    width: 459px;
+    height: 428px;
+}
+.title-2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.col-9 > .description{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.rounded-circle{
+    background-color: #CFD4ED;
+
+}
+.col > .rounded-circle{
+    width: 24px;
+    height: 24px;
+    
+}
+.col > .desc{
+    font-size: 14px;
+}
+.rounded-circle > img{
+    width: 1rem;
+    height: 1rem;
+}
+.card-title {
+    font-weight: 700;
+}
