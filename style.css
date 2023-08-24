@@ -93,5 +93,13 @@ body{
 }
 .testimonial-section {
  margin-block: 6.25rem;   
- background-color: aquamarine;
+}
+
+.getting-started-section >.container.text-center{
+    background-color: #0D28A6;
+    padding-block: 4rem;
+
+}
+.description-getting{
+    margin-bottom: 52px;
 }
