@@ -52,7 +52,7 @@ body{
 }
 
 .service-section{
-    margin-block: 10rem;
+    margin-block: 6.25rem;
 }
 .col > .services-image{
     width: 459px;
@@ -86,4 +86,8 @@ body{
 }
 .card-title {
     font-weight: 700;
+}
+.container-cards{
+    gap: 2rem;
+    margin-top: 2.5rem;
 }
