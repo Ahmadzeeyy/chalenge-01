@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica;
-        font-size: 14px;
 }
 body{
     min-height: 200vh;
@@ -17,7 +16,7 @@ body{
 }
 
 .navbar{
-    padding: 2rem 10%;
+    padding: 32px 10%;
     background-color: #F1F3FF;
 }
 .navbar .logo{
@@ -81,12 +80,33 @@ body{
 .col > .desc{
     font-size: 14px;
 }
-.rounded-circle > img{
-    width: 1rem;
-    height: 1rem;
+.check{
+    width: 16px;
+    color: #0D28A6;
+    stroke-width: 3;
+
 }
 .card-title {
     font-weight: 700;
+}
+.icons-like {
+    background: #F9CC00;
+}
+.icons-time {
+    background: #0D28A6;
+}
+.icons-pro {
+    background: #5CB85F;
+
+}
+.icons-like, .icons-tag,.icons-time,.icons-pro{
+    width: 32px;
+    height: 32px;
+}
+.like ,.tag,.time,.pro {
+    width: 20px;
+    height: 20px;
+    color: white;
 }
 .container-cards{
     gap: 2rem;
@@ -123,3 +143,16 @@ button.accordion-button{
     height: 30px;
     background-color: #0D28A6;
 }
+.icons{
+    background-color: #0D28A6;
+    width: 32px;
+    height: 32px;
+}
+.firstb { 
+    width: 20px;
+    height: 20px;
+    color: white;
+    stroke-width: 1;
+}
+
+

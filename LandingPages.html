@@ -7,6 +7,7 @@
     <title>Chalenge </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://unpkg.com/feather-icons"></script>
+    <?xml-stylesheet type="text/css" href="style.css"?>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -78,31 +79,31 @@
     </div>
     <div class="row">
       <div class="col d-flex gap-3 mt-3 align-items-center"> 
-        <div class="rounded-circle d-flex justify-content-center align-items-center"><img src="./asset/fi_check.svg" class="" alt=""></div>
+        <div class="rounded-circle d-flex justify-content-center align-items-center"><i class="check" data-feather="check"></i></div>
         <div class="desc">Sewa Mobil Dengan Supir di Bangkalan 12 Jam</div>
       </div>
     </div>
     <div class="row">
       <div class="col d-flex gap-3 mt-3 align-items-center"> 
-        <div class="rounded-circle d-flex justify-content-center align-items-center"><img src="./asset/fi_check.svg" class="" alt=""></div>
+        <div class="rounded-circle d-flex justify-content-center align-items-center"><i class="check" data-feather="check"></i></div>
         <div class="desc">Sewa Mobil Dengan Supir di Bangkalan 24 Jam</div>
       </div>
     </div>
     <div class="row">
       <div class="col d-flex gap-3 mt-3 align-items-center"> 
-        <div class="rounded-circle d-flex justify-content-center align-items-center"><img src="./asset/fi_check.svg" class="" alt=""></div>
+        <div class="rounded-circle d-flex justify-content-center align-items-center"><i class="check" data-feather="check"></i></div>
         <div class="desc">Sewa Mobil Jangka Panjang Bulanan</div>
       </div>
     </div>
     <div class="row">
       <div class="col d-flex gap-3 mt-3 align-items-center"> 
-        <div class="rounded-circle d-flex justify-content-center align-items-center"><img src="./asset/fi_check.svg" class="" alt=""></div>
+        <div class="rounded-circle d-flex justify-content-center align-items-center"><i class="check" data-feather="check"></i></div>
         <div class="desc">Gratis Antar - Jemput Mobil di Bandara</div>
       </div>
     </div>
     <div class="row">
       <div class="col d-flex gap-3 mt-3 align-items-center"> 
-        <div class="rounded-circle d-flex justify-content-center align-items-center"><img src="./asset/fi_check.svg" class="" alt=""></div>
+        <div class="rounded-circle d-flex justify-content-center align-items-center"><i class="check" data-feather="check"></i></div>
         <div class="desc">Layanan Airport Transfer / Drop In Out</div>
       </div>
     </div>
@@ -110,6 +111,8 @@
 </div>
 
 </div>  
+
+
 <!-- Why use Section -->
 <div class="container d-flex justify-content-center">
     <div class="container-why-us">
@@ -117,29 +120,37 @@
       <div class="row description">Mengapa harus pilih Binar Car Rental?</div>
       <div class=" row container-cards">
         <div class=" col card" style="width:  16.75rem;" >
-          <div class="card-body p-4 " >
-            <img src="./asset/icon_complete.svg" alt="">
+            <div class="card-body p-4 " >
+              <div class="icons-like d-flex justify-content-center align-items-center rounded-circle">
+                <i class="like" data-feather="thumbs-up"></i>
+              </div>
             <h5 class="card-title my-3">Mobil Lengkap</h5 >
             <p class="card-text">Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
           </div>
         </div>
         <div class=" col card" style="width:  16.75rem;" >
           <div class="card-body p-4 " >
-            <img src="./asset/icon_price.svg" alt="">
+              <div class="icons-tag bg-danger d-flex justify-content-center align-items-center rounded-circle">
+                <i class="tag" data-feather="tag"></i>
+              </div>
             <h5 class="card-title my-3">Harga Murah</h5 >
             <p class="card-text">Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain</p>
           </div>
         </div>
         <div class=" col card" style="width:  16.75rem;" >
           <div class="card-body p-4 " >
-            <img src="./asset/icon_24hrs.svg" alt="">
+              <div class="icons-time d-flex justify-content-center align-items-center rounded-circle">
+                <i class="time" data-feather="clock"></i>
+              </div>
             <h5 class="card-title my-3">Layanan 24 Jam</h5 >
             <p class="card-text">Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
           </div>
         </div>
         <div class="col card" style="width:  16.75rem;" >
           <div class="card-body p-4 " >
-            <img src="./asset/icon_professional.svg" alt="">
+              <div class="icons-pro d-flex justify-content-center align-items-center rounded-circle">
+                <i class="pro" data-feather="award"></i>
+              </div>
             <h5 class="card-title my-3">Sopir Profesional</h5 >
             <p class="card-text">Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</p>
           </div>
@@ -147,12 +158,14 @@
       </div>
     </div>
 </div>
-<!-- testimonial section -->
 
+
+<!-- testimonial section -->
 <div class="testimonial-section">
   <div class="title-2 text-center mb-3">Testimonial</div>
   <div class="description text-center">Berbagai review positif dari para pelanggan kami</div>
 </div>
+
 <!-- Getting started section -->
 <div class="container getting-started-section ontd-flex justify-cent-center">
     <div class="container text-center">
@@ -161,6 +174,7 @@
       <button class="btn-register" type="submit">mulai sewa mobil</button>
     </div>
 </div>
+
 <!--FAQ Section  -->
 <div class="container faq-container">
   <div class="row">
@@ -256,7 +270,23 @@
     </div>
     <div class="col-4 social media">
       <p>Connect with us</p>
-      <i data-feather="heart"></i>
+      <div class="continer-icons d-flex">
+        <div class="icons d-flex justify-content-center align-items-center rounded-circle">
+          <i class="firstb" data-feather="facebook"></i>
+        </div>
+        <div class="icons d-flex justify-content-center align-items-center rounded-circle mx-3">
+          <i class="firstb" data-feather="instagram"></i>
+        </div>
+        <div class="icons d-flex justify-content-center align-items-center rounded-circle">
+          <i class="firstb" data-feather="twitter"></i>
+        </div>
+        <div class="icons d-flex justify-content-center align-items-center rounded-circle mx-3">
+          <i class="firstb" data-feather="mail"></i>
+        </div>
+        <div class="icons d-flex justify-content-center align-items-center rounded-circle">
+          <i class="firstb" data-feather="twitch"></i>
+        </div>
+      </div>
     </div>
     <div class="col-2">
       <p>Copyright Binar 2022</p>
