@@ -66,6 +66,11 @@ body{
     line-height: 20px;
     font-weight: 300;
 }
+.why{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .rounded-circle{
     background-color: #CFD4ED;
 
