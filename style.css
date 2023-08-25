@@ -4,7 +4,6 @@
     font-family: Helvetica;
 }
 body{
-    min-height: 200vh;
     font-size: 14px;
 }
 .title-section{
@@ -34,7 +33,6 @@ body{
 }
 .hero-section{
     background-color: #F1F3FF;
-    min-height: 52.8vh;
 }
 .container-content .description{
     font-size: 14px;
