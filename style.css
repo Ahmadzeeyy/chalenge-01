@@ -114,3 +114,12 @@ button.accordion-button{
     padding-block: 18px;
     padding-left: 24px;
 }
+
+.container-footer{
+    margin-top: 150px;
+}
+.container-footer .logo{
+    width: 50%;
+    height: 30px;
+    background-color: #0D28A6;
+}
