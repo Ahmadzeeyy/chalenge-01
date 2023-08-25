@@ -115,6 +115,32 @@ body{
 .testimonial-section {
  margin-block: 6.25rem;   
 }
+.carousel-container{
+    margin-top: 40px;
+}
+.carousel-control-next-icon , .carousel-control-prev-icon{
+    width: 20px;
+    height: 20px;
+}
+.star{
+    stroke-width: 2;
+    color: #F9CC00;
+    fill: #F9CC00;
+    width: 16px;
+
+    height: 16px;
+}
+.carousel-control-next-icon{
+    position :absolute;
+    right: 10px;
+}
+.carousel-control-prev-icon{
+    position :absolute;
+    left: 10px;
+}
+.carousel-item .card-body .mages{
+    align-self: center;
+}
 
 .container.text-center{
     background-color: #0D28A6;
@@ -154,5 +180,6 @@ button.accordion-button{
     color: white;
     stroke-width: 1;
 }
+
 
 
